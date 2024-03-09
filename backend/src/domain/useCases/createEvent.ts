@@ -1,6 +1,6 @@
 import { Event } from "@domain/models/event";
 import { EventRepository } from "@domain/repositories/eventRepository";
-import { TitleValidator } from "@domain/validation/titleValidator";
+import { TitleValidator } from "@domain/validators/titleValidator";
 
 export class MissingParam extends Error {
   constructor(param: string) {
